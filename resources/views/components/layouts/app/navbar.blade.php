@@ -22,15 +22,15 @@
                 class="absolute left-0 top-full mt-2 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 ease-in-out bg-gray-200 dark:bg-gray-800 w-52 z-10 rounded shadow-lg">
                 <ul class="space-y-2">
                     <li class="hover:bg-gray-300 dark:hover:bg-gray-700 px-5 py-2"><a href="#" wire:navigate
-                            class="text-dark dark:text-light font-medium">Service 1</a></li>
+                            class="text-dark dark:text-light font-medium">Vehicle Sales</a></li>
                     <li class="hover:bg-gray-300 dark:hover:bg-gray-700 px-5 py-2"><a href="#" wire:navigate
-                            class="text-dark dark:text-light font-medium">Service 2</a></li>
+                            class="text-dark dark:text-light font-medium">Financing</a></li>
                     <li class="hover:bg-gray-300 dark:hover:bg-gray-700 px-5 py-2"><a href="#" wire:navigate
-                            class="text-dark dark:text-light font-medium">Service 3</a></li>
+                            class="text-dark dark:text-light font-medium">Maintenance</a></li>
                     <li class="hover:bg-gray-300 dark:hover:bg-gray-700 px-5 py-2"><a href="#" wire:navigate
-                            class="text-dark dark:text-light font-medium">Service 4</a></li>
+                            class="text-dark dark:text-light font-medium">Warranty</a></li>
                     <li class="hover:bg-gray-300 dark:hover:bg-gray-700 px-5 py-2"><a href="#" wire:navigate
-                            class="text-dark dark:text-light font-medium">Service 5</a></li>
+                            class="text-dark dark:text-light font-medium">Customization</a></li>
                 </ul>
             </div>
         </div>
