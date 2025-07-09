@@ -18,7 +18,6 @@ COPY . .
 
 COPY --from=composer:2 /usr/bin/composer /usr/bin/composer
 
-RUN composer require livewire/flux
 
 RUN npm install && npm run build
 
