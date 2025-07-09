@@ -26,7 +26,7 @@
                 </div>
             </div>
 
-            <img data-aos="zoom-in" data-aos-duration="1200" src="{{ asset('images/smct-building.jpg') }}"
+            <img src="{{ asset('images/smct-building.jpg') }}"
                 alt="SMCT Building"
                 class="hidden lg:block absolute right-[5%] top-10/12 -translate-y-[36.5%] w-1/2 max-w-4xl h-auto rounded-2xl shadow-2xl animate-float pointer-events-none
            filter brightness-95 contrast-90 saturate-90 dark:brightness-90 dark:contrast-95 dark:saturate-80
