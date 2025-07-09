@@ -1,5 +1,6 @@
-FROM php:8.2-fpm
+FROM php:8.3.2-fpm
 
+# Install dependencies
 RUN apt-get update && apt-get install -y \
     build-essential \
     libpng-dev \
@@ -11,7 +12,6 @@ RUN apt-get update && apt-get install -y \
     curl \
     npm
 
-
 RUN apt-get update && apt-get install -y \
 git unzip curl nodejs npm
 
@@ -21,18 +21,28 @@ RUN curl -fsSL https://deb.nodesource.com/setup_20.x | bash - && \
 
 RUN docker-php-ext-install pdo pdo_mysql mbstring exif pcntl bcmath gd zip
 
-WORKDIR /var/www/html
+WORKDIR /var/www
+
+COPY ./package*.json ./
+
+# Install the dependencies
+RUN npm install
 
 COPY . .
 
+# Install Composer
 COPY --from=composer:2 /usr/bin/composer /usr/bin/composer
 
-RUN composer install
-RUN npm install && npm run build
+# Build the application
+RUN npm run build
 
-RUN chown -R www-data:www-data /var/www/html/storage /var/www/html/bootstrap/cache
+# Install PHP dependencies
+RUN composer install --no-dev --optimize-autoloader
 
+# Set permissions
+RUN chown -R www-data:www-data /var/www
+
+# Expose port
 EXPOSE 1005
 
 CMD ["php-fpm"]
-
