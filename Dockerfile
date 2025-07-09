@@ -25,4 +25,5 @@ RUN chown -R www-data:www-data /var/www/html/storage /var/www/html/bootstrap/cac
 
 EXPOSE 1005
 
-CMD ["php-fpm"]
+CMD ["composer", "run", "dev"]
+
