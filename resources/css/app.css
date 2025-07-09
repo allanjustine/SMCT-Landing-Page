@@ -86,10 +86,10 @@ select:focus[data-flux-control] {
 @keyframes float {
     0%,
     100% {
-        transform: translateY(-50%) translateX(-20px);
+        transform: translateY(-50%) translateX(-10px);
     }
     50% {
-        transform: translateY(-50%) translateX(80px);
+        transform: translateY(-50%) translateX(50px);
     }
 }
 

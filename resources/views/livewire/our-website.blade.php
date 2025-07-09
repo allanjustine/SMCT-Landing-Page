@@ -1,14 +1,8 @@
 <div>
     <section class="py-20 bg-gradient-to-b from-light to-gray-100 dark:from-dark dark:to-gray-900 px-[5%]"
         id="our-websites">
-        <div class="text-center max-w-4xl mx-auto mb-16 animate-slide-up">
+        <div class="text-center max-w-4xl mx-auto mb-16 animate-slide-up space-y-2">
             <h2 class="text-4xl font-bold mb-4" data-aos="zoom-out-up" data-aos-duration="1200">Our Websites</h2>
-            <p class="text-gray-800 dark:text-gray-400" data-aos="zoom-out-up" data-aos-duration="1200">
-                Our website is a dynamic and user-friendly platform designed to streamline communication, enhance
-                productivity, and deliver seamless user experiences. Built with modern web technologies like
-                Laravel, Livewire, ReactJs, and NextJs, it combines real-time interaction with powerful backend
-                capabilities.
-            </p>
             <p class="text-gray-800 dark:text-gray-400" data-aos="zoom-out-up" data-aos-duration="1200">
                 Whether you're managing data, tracking tasks, or enhancing your team’s workflow, our tools are
                 crafted to be fast, responsive, and easy to use. We also integrate creative UI elements — including
