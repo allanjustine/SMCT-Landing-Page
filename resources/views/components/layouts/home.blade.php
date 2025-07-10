@@ -8,11 +8,12 @@
     @include('partials.head')
 </head>
 
-<body>
+<body class="antialiased">
     @include('components.layouts.app.navbar')
     <main class="mt-10">
         {{ $slot }}
     </main>
+    @fluxScripts
 </body>
 @include('components.layouts.app.footer')
 

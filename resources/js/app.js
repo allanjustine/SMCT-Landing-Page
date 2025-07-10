@@ -13,7 +13,3 @@ document.addEventListener("livewire:navigated", () => {
 
     document.addEventListener("scroll", handleScroll);
 });
-
-document.addEventListener("livewire:navigated", () => {
-    AOS.init();
-});
