@@ -1,14 +1,4 @@
 document.addEventListener("livewire:navigated", () => {
-    const darkPreference = localStorage.getItem("flux.appearance");
-
-    if (darkPreference === "dark" || !darkPreference) {
-        document.documentElement.classList.add("dark");
-    } else {
-        document.documentElement.classList.remove("dark");
-    }
-});
-
-document.addEventListener("livewire:navigated", () => {
     const handleScroll = () => {
         const navbar = document.getElementById("navbar");
 
