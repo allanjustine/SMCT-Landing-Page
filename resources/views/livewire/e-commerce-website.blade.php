@@ -1,7 +1,13 @@
 <div>
-    <section class="py-20 px-[5%]">
+    <section class="py-20 px-[5%] group">
         <div class="text-center max-w-4xl mx-auto mb-16">
-            <h2 class="text-4xl font-bold mb-4" data-aos="fade-up" data-aos-duration="1200">Our E-Commerce Websites</h2>
+            <div class="relative group w-fit flex justify-center items-center mx-auto">
+                <h2 class="text-4xl font-bold mb-4" data-aos="fade-up" data-aos-duration="1200">
+                    Our E-Commerce Websites
+                </h2>
+                <span
+                    class="w-0 group-hover:w-full transition-all duration-500 ease-in-out absolute border-b-3 mt-7 border-blue-500"></span>
+            </div>
             <p class="text-gray dark:text-gray-400" data-aos="fade-up" data-aos-duration="1200">
                 Discover our digital storefronts tailored for a seamless shopping experience — from electronics to
                 motorcycles and more.
@@ -9,8 +15,8 @@
         </div>
 
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
-            <div
-                class="bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg transition-transform duration-300 hover:-translate-y-2" data-aos="zoom-in-up" data-aos-duration="1200">
+            <div class="bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg transition-transform duration-300 hover:-translate-y-2"
+                data-aos="zoom-in-up" data-aos-duration="1200">
                 <div class="relative overflow-hidden">
                     <img src="{{ asset('images/smct.png') }}" alt="STRONG MOTO CENTRUM"
                         class="w-full h-full object-cover transition-transform duration-500 hover:scale-110">
@@ -34,8 +40,8 @@
                     </div>
                 </div>
             </div>
-            <div
-                class="bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg transition-transform duration-300 hover:-translate-y-2" data-aos="zoom-in-up" data-aos-duration="1200">
+            <div class="bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg transition-transform duration-300 hover:-translate-y-2"
+                data-aos="zoom-in-up" data-aos-duration="1200">
                 <div class="relative overflow-hidden">
                     <img src="{{ asset('images/dap.png') }}" alt="DES APPLIANCE PLAZA"
                         class="w-full h-full object-cover transition-transform duration-500 hover:scale-110">
@@ -59,8 +65,8 @@
                     </div>
                 </div>
             </div>
-            <div
-                class="bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg transition-transform duration-300 hover:-translate-y-2" data-aos="zoom-in-up" data-aos-duration="1200">
+            <div class="bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg transition-transform duration-300 hover:-translate-y-2"
+                data-aos="zoom-in-up" data-aos-duration="1200">
                 <div class="relative overflow-hidden">
                     <img src="{{ asset('images/des.png') }}" alt="DES STRONG MOTORS"
                         class="w-full h-full object-cover transition-transform duration-500 hover:scale-110">
@@ -84,8 +90,8 @@
                     </div>
                 </div>
             </div>
-            <div
-                class="bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg transition-transform duration-300 hover:-translate-y-2" data-aos="zoom-in-up" data-aos-duration="1200">
+            <div class="bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg transition-transform duration-300 hover:-translate-y-2"
+                data-aos="zoom-in-up" data-aos-duration="1200">
                 <div class="relative overflow-hidden">
                     <img src="{{ asset('images/hd.png') }}" alt="HONDA DES"
                         class="w-full h-full object-cover transition-transform duration-500 hover:scale-110">

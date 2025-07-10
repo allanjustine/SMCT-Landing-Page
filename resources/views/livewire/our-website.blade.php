@@ -1,8 +1,14 @@
 <div>
-    <section class="py-20 bg-gradient-to-b from-light to-gray-100 dark:from-dark dark:to-gray-900 px-[5%]"
+    <section class="py-20 bg-gradient-to-b from-light to-gray-100 dark:from-dark dark:to-gray-900 px-[5%] group"
         id="our-websites">
         <div class="text-center max-w-4xl mx-auto mb-16 animate-slide-up space-y-2">
-            <h2 class="text-4xl font-bold mb-4" data-aos="zoom-out-up" data-aos-duration="1200">Our Websites</h2>
+            <div class="relative group w-fit flex justify-center items-center mx-auto">
+                <h2 class="text-4xl font-bold mb-4" data-aos="zoom-out-up" data-aos-duration="1200">
+                    Our Websites
+                </h2>
+                <span
+                    class="w-0 group-hover:w-full transition-all duration-500 ease-in-out absolute border-b-3 mt-7 border-blue-500"></span>
+            </div>
             <p class="text-gray-800 dark:text-gray-400" data-aos="zoom-out-up" data-aos-duration="1200">
                 Whether you're managing data, tracking tasks, or enhancing your team’s workflow, our tools are
                 crafted to be fast, responsive, and easy to use. We also integrate creative UI elements — including

@@ -1,10 +1,15 @@
 <div>
     <div class="p-10" x-data="{ isOpen: false }">
-        <section class="py-20 px-6 text-center">
-            <h1 class="text-5xl font-bold text-gray-900 dark:text-white mb-4 animate-fade-in" data-aos="fade-up"
-                data-aos-duration="1200">
-                Our <span class="text-primary">Purpose</span>
-            </h1>
+        <section class="py-20 px-6 text-center group">
+            <div class="relative group w-fit flex justify-center items-center mx-auto">
+                <h1 class="text-5xl font-bold text-gray-900 dark:text-white mb-4 animate-fade-in" data-aos="fade-up"
+                    data-aos-duration="1200">
+
+                    Our <span class="text-primary">Purpose</span>
+                </h1>
+                <span
+                    class="w-0 group-hover:w-full transition-all duration-500 ease-in-out absolute border-b-3 mt-7 border-blue-500"></span>
+            </div>
             <div class="px-10" data-aos="fade-up" data-aos-duration="1200">
                 <ul class="space-y-2">
                     <li>
