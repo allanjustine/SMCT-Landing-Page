@@ -16,4 +16,8 @@ document.addEventListener("livewire:navigated", () => {
 
 document.addEventListener("livewire:navigated", () => {
     AOS.init();
+
+    if (window.FluxAppearance?.sync) {
+        FluxAppearance.sync();
+    }
 });
